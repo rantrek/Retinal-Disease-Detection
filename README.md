@@ -20,7 +20,7 @@ The programs were developed in Python. The models were trained using Jupyter Not
    - Data Visualization
    - Machine Learning
    - Deep Learning 
-   - Web app development and deployment  
+   - Web app development 
 
 ## Algorithms 
 
