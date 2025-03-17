@@ -53,7 +53,7 @@ else:
     image_size = (128,128)
     processed_image = processImage(image, image_size)
     prediction = model.predict(processed_image)
-    score = prediction[0][1]
+    score = prediction
     result = 'Disease' if score>.50 else 'Healthy'
     
     
