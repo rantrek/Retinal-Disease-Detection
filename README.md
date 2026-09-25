@@ -29,9 +29,7 @@ To run the application, first start the Flask API file first and then the stream
    - Data Visualization
    - Machine Learning
    - Deep Learning 
-   - Web app development 
-      -Backend (API)
-      -Frontend (UI)
+   - Web app development (Backend (API), Frontend (UI))
       
 ## Algorithms 
 
