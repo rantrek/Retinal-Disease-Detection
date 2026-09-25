@@ -13,7 +13,15 @@ The purpose of this project:
 
 ## Program
 
-The programs were developed in Python. The models were trained using Jupyter Notebook and run in Google Colab. The app is a single python file. 
+All code was written in Python and comprise four files. 
+1. RetinalDiseaseClassification.ipynb - This Jupyter notebook trained the binary classifier and saved the model.
+2. RetinalDiseaseMultilabel.ipynb - This notebook trained the multi-label classifier and saved the model.
+3. Retinal_Disease_Prediction_API.py - This python file loads the models and runs inferences, utilizing the Flask API. 
+4. Retinal_Disease_Prediction_UI.py - This python file runs the streamlit UI that loads the image, calls the inference API and displays the results. 
+
+Models were trained in the Google Colab environment. To get both models, run both Jupyter notebooks.
+
+To run the application, first start the Flask API file first and then the streamlit UI. 
 
 ## Techniques
 
@@ -22,7 +30,9 @@ The programs were developed in Python. The models were trained using Jupyter Not
    - Machine Learning
    - Deep Learning 
    - Web app development 
-
+      -Backend (API)
+      -Frontend (UI)
+      
 ## Algorithms 
 
    - Convolution Neural Network (CNN)  
@@ -34,7 +44,9 @@ The programs were developed in Python. The models were trained using Jupyter Not
    - Pandas
    - Matplotlib
    - NumPy
-   - OpenCV
-   - Streamlit
    - Scikit-Learn
    - Seaborn
+   - OpenCV
+   - Flask
+   - Streamlit
+
