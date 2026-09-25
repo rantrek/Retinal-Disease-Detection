@@ -13,8 +13,8 @@ warnings.filterwarnings("ignore")
 classes = {1:'DR',2:'MH',3:'ODC',4:'TSLN',5:'DN',6:'MYA',7:'ARMD'}
 
 #Load models
-model=tf.keras.models.load_model('retinal_model.keras')
-model_multi = tf.keras.models.load_model('retinal_model1.keras')
+model=load_model('retinal_model.keras')
+model_multi = load_model('retinal_model1.keras')
 
 # Process the image
 
