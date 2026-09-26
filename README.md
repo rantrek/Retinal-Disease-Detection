@@ -18,10 +18,11 @@ All code was written in Python and comprise four files.
 2. RetinalDiseaseMultilabel.ipynb - This notebook trained the multi-label classifier and saved the model.
 3. Retinal_Disease_Prediction_API.py - This python file loads the models and runs inferences, utilizing the Flask API. 
 4. Retinal_Disease_Prediction_UI.py - This python file runs the streamlit UI that loads the image, calls the inference API and displays the results. 
+5. Retinal_Disease_Prediction_App.py - This python file runs the entire application in streamlit, both acting as UI and running inferences using the models. This is an older file and is slower to load compared to the Streamlit UI + Flask API files. 
 
 Models were trained in the Google Colab environment. To get both models, run both Jupyter notebooks.
 
-To run the application, first start the Flask API file first and then the streamlit UI. 
+To run the application,first start the Flask API file first and then the streamlit UI in your local system. 
 
 ## Techniques
 
