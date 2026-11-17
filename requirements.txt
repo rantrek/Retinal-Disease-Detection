@@ -1,0 +1,19 @@
+# Training and data
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+opencv-python
+kagglehub
+
+# Models
+tensorflow
+keras
+openvino
+
+# Web app
+flask
+streamlit
+requests
+python-dotenv

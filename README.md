@@ -25,6 +25,25 @@ Models were trained in the Google Colab environment. To get both models in keras
 
 To run the application,first start the Flask API file first and then the streamlit UI in your local system. 
 
+## Setup
+
+Python version: 3.13.6
+
+With the standard library:
+
+```
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+With [uv](https://docs.astral.sh/uv/):
+
+```
+uv venv or uv venv your-custom-env-name
+uv pip install -r requirements.txt
+```
+
 ## Techniques
 
    - Data processing
@@ -50,4 +69,5 @@ To run the application,first start the Flask API file first and then the streaml
    - Flask
    - Streamlit
    - OpenVINO
+   - kagglehub
 
